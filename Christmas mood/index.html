@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <h1>Star rating</h1>
+        <div class="stars">
+
+        </div>
+    </div>
+    <script src='snowfall.js'></script>
+    <script src="confetti.min.js"></script>
+    <script src="script.js"></script>
+    <script src="js/snowfall.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(document).snowfall({ image: "img/snow3.png", minSize: 10, maxSize: 20, maxSpeed: 1 });
+        });
+    </script>
+</body>
+
+</html>
